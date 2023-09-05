@@ -24,3 +24,27 @@ Email and call: Customers in this group were first sent the product information 
 called a week later by the sales team to talk about their needs and how this new product
 may support their work. The email required little work from the team, the call was around ten
 minutes per customer.
+# Data Information
+The original data can be gotten from this link:
+# www.
+The data hasn’t been validated, so make sure that you check it against all of the information
+in the table before you start your analysis.
+Column Name Details
+week: Week sale was made, counted as weeks since product launch.
+
+sales_method: Character, which of the three sales methods were used for that customer
+
+customer_id: Character, unique identifier for the customer
+
+nb_sold: Numeric,number of new products sold.
+
+revenue: Numeric, revenue from the sales, rounded to 2 decimal places.
+
+years_as_customer: Numeric, number of years customer has been buying from us
+(company founded in 1984)
+
+nb_site_visits: Numeric, number of times the customer has visited our website
+in the last 6 months
+
+state: Character, location of the customer i.e. where orders are
+shipped
